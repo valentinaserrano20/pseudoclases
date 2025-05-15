@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.enlace{
+    display: block;
+    background-color: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    border-bottom: 3px solid #000;
+    transition: all 0.8s;
+}
+
+.enlace:link{
+    background-color: steelblue;
+}
+
+.enlace:visited{
+    background-color: crimson;
+}
+
+.enlace:active{
+    background-color: yellow;
+    color:#000;
+}
+
+.enlace:hover{
+    padding: 40px;
+    background-color: violet;
+}
+
+.event{
+    display:inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition:all 0.8s;
+    border: solid 1px crimson;
+}
+
+.event:hover{
+    background-color: red;
+    border: solid 1px black;
+}
+
+.box{
+    width:100px;
+    height:100px;
+    background-color: steelblue;
+    margin-left: 20px;
+    margin-top: 20px;
+    transition:all 1s;
+}
+
+#objetivo:target{
+    margin-left: 200px;
+    border-radius: 100%;
+    background-color: #000;
+}
+
+.form{
+    width:80%;
+    margin: 30px auto;
+    background-color: #f2f2f2;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.form__title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    display:block;
+    transition:all 1s;
+}
+
+input[type="text"],
+input[type="email"]{
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+
+}
+
+input[type="checkbox"]{
+    display: inline-block;
+}
+
+input:focus{
+    background-color: #000;
+    color:#fff;
+}
+
+input[type="checkbox"]:checked{
+    color:red;
+}
+
+input[type="checkbox"]:checked ~ label{
+    color:red;
+}
+
+.form:focus-within{
+    background-color: rgb(170, 110, 219);
+}
+
+h3{
+    font-size: 2 rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+h3:not(.title):not(:hover){
+    color: crimson;
+}
+

@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.box{
+    background-color: steelblue;
+    width: 55px;
+    height: 55px;
+    margin: 10px 0;
+    line-height: 55px;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+}
+
+.container{
+    border: 3px solid crimson;
+    margin-left: -5px;
+    padding: 10px 0;
+}
+
+/* .box:only-of-type{
+    background-color: tomato;
+} */
+
+/* .box:first-of-type{
+    background-color: brown;
+} */
+
+/* .box:last-of-type{
+    background-color: brown;
+} */
+
+/* .box:nth-of-type(2){
+    background-color: brown;
+} */
+
+.box:nth-child(2n+1){
+    background-color: burlywood;
+}
