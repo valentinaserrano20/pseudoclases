@@ -56,14 +56,20 @@ button:hover{
     margin-top: 20px;
 }
 input{
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
-
+/* 
 input:valid{
     background-color: chartreuse;
 }
 
 input:invalid{
     background-color: red;
+} */
+form{
+    margin-left: 50px;
 }
 
+#mail:only-of-type{
+    background-color: aqua;
+}
